@@ -23,5 +23,4 @@ export const players ={
         id: 6,
         color: 'Vermelhor'
     }
-
 }

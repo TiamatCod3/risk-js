@@ -7,6 +7,20 @@
   </head>
   <body>
     <div id="app"></div>
+    <div id="message">Mensagem</div>
+    <pre id="player"></pre>
+    <pre id="moves"></pre>
+    <form action="" method="post" id="alocacao">
+      <label for="origem">Origem</label>
+      <input type="number" id="origem">
+      <label for="destino">Destino</label>
+      <input type="number" id="destino">
+      <label for="quantidade">Quantidade</label>
+      <input type="number" id="quantidade">
+      <input type="submit" value="Alocar">
+    </form>
+    <button id="next">Next</button>
+    <pre id="json"></pre>
     <script type="module" src="src/main.js"></script>
   </body>
 </html>
